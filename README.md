@@ -7,7 +7,7 @@
 
 #### This implementation attempts to carefully organize the code by peripheral. There is a clean separation of GPIO, I2C, UART, and Timer functions.
 #### This goal was to make the code readable and maintainable. While the whole program is small, we want to make it as easy as possible to extend functionality.
-#### The comments are written so to describe the intent of the developer without proving an exhaustive explanation of what the code does.
+#### The comments are written so as to describe the intent of the developer without proving an exhaustive explanation of what the code "does".
 #### These are principles that are appropriate for most projects, and the thermostat source code benefits from sticking to them.
 
 #### We could improve the prototype by implementing "cooling". So far, the red LED flashes when the heat is ON, but there is no LED for air conditioning.
